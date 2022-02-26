@@ -1,0 +1,19 @@
+
+body {
+    font-family: 'Open Sans Condensed';
+    background-color: #789395;
+    /* padding: 20px 60px; */
+
+    @media screen and (max-width: 800px) {
+        padding: 10px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,12 @@
+.podcast-item {
+    display: inline-block;
+    padding: 20px 40px;
+    margin: auto;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.podcast-logo {
+    height: 10vmin;
+    pointer-events: none;
+  }
