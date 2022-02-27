@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import PodcastItem from "../../components/podcast-item/Podcast-item";
+import PodcastItem from "../../components/podcast-item/Podcast-item.component";
 
 import dragomir_logo from '../../assets/dragomir_logo.svg';
 import besit from "../../assets/besit.png"
@@ -17,18 +17,18 @@ const Homepage = () => {
                     Dragomir's Podcasts
                 </p>
                 <div className="podcast">
-                <Link to="vnutri-menya">
-                    <PodcastItem 
-                        name="Внутри меня" 
-                        src={vnutri}
-                    />
-                </Link>
-                <Link to="menya-vse-besit">
-                    <PodcastItem 
-                        name="Меня все бесит" 
-                        src={besit}
+                    <Link to="vnutri-menya">
+                        <PodcastItem 
+                            name="Внутри меня" 
+                            src={vnutri}
                         />
-                </Link>
+                    </Link>
+                    <Link to="menya-vse-besit">
+                        <PodcastItem 
+                            name="Меня все бесит" 
+                            src={besit}
+                            />
+                    </Link>
                      
                 </div>
                 

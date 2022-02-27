@@ -1,29 +1,31 @@
 .home {
-    text-align: center;
-  }
+  text-align: center;
+}
   
-  .dragomir-logo {
-    height: 35vmin;
-    pointer-events: none;
-  }
+.dragomir-logo {
+  height: 35vmin;
+  pointer-events: none;
+}
+
+
+.header {   
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
   
-  
-  .header {
-    
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 80px;
-    /* justify-content: center; */
-    font-size: calc(10px + 2vmin);
-    /* color: white; */
-  }
-  
-  .headerName {
-    color: black;
-  }
-  /* .podcast {
-    position: relative;;
-  } */
+}
+
+.headerName {
+  color: black;
+}
+
+
+/* .podcast {
+  display: flex;
+  flex-direction:row;
+} */
   

@@ -2,6 +2,7 @@
 body {
     font-family: 'Open Sans Condensed';
     background-color: #789395;
+    text-align: center;
     /* padding: 20px 60px; */
 
     @media screen and (max-width: 800px) {
