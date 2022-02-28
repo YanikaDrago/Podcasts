@@ -1,0 +1,29 @@
+.episode-logo {
+    height: 10vmin;
+    pointer-events: none;
+}
+
+.episodes {
+  margin: 0 80px;
+}
+
+.episode{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: flex-start;
+  text-align: left;
+  
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+}
+
+.episode-name {
+  margin-left: 30px;
+}
+
+.episode-desc {
+  margin-top: 0;
+  text-align: left;
+}
+

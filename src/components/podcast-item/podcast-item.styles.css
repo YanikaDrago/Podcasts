@@ -4,9 +4,17 @@
     margin: auto;
     color: black;
     font-size: 1.3rem;
+    flex-direction: column;
 }
 
 .podcast-logo {
     height: 10vmin;
     pointer-events: none;
   }
+
+.desc {
+    font-size: 1.1rem;
+    margin: 20px 250px;
+    padding: 0 100px;
+    
+}

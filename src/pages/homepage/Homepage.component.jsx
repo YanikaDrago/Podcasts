@@ -4,11 +4,15 @@ import { Link } from "react-router-dom";
 import PodcastItem from "../../components/podcast-item/Podcast-item.component";
 
 import dragomir_logo from '../../assets/dragomir_logo.svg';
-import besit from "../../assets/besit.png"
-import vnutri from "../../assets/vnutri.png"
+import dataPodcast from "../../assets/data";
 import './homepage.style.css';
 
 const Homepage = () => {
+
+    const [vnutri, besit] = dataPodcast;
+    const {name: nameVnutri, imgUrl: imgVnutri } = vnutri;
+    const {name: nameBesit, imgUrl: imgBesit } = besit;
+
     return (
         <div className="home">
             <header className="header">
@@ -16,17 +20,17 @@ const Homepage = () => {
                 <p className="headerName">
                     Dragomir's Podcasts
                 </p>
-                <div className="podcast">
+                <div>
                     <Link to="vnutri-menya">
                         <PodcastItem 
-                            name="Внутри меня" 
-                            src={vnutri}
+                            name={nameVnutri} 
+                            src={imgVnutri}
                         />
                     </Link>
                     <Link to="menya-vse-besit">
                         <PodcastItem 
-                            name="Меня все бесит" 
-                            src={besit}
+                            name={nameBesit} 
+                            src={imgBesit}
                             />
                     </Link>
                      

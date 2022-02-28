@@ -1,6 +1,6 @@
 .group {
   position: relative;
-  margin: 45px 0;
+  margin: 40px 0;
 }
 
 .form-input {
@@ -22,7 +22,7 @@ margin: 25px 0;
 }
 
 :focus ~ .form-input-label {
-    top: -14px;
+    top: -16px;
     font-size: 12px;
     color: black;
 }
@@ -44,7 +44,7 @@ letter-spacing: 0.3em;
 }
 
 .shrink {
-    top: -14px;
+    top: -16px;
     font-size: 12px;
     color: black;
 }

@@ -8,7 +8,11 @@ import "./admin-podcast-collections.styles.css"
 
 const AdminPodcastCollections = () => {
 
-    const [nameVnutri, nameBesit, imgVnutri, imgBesit] = dataPodcast;
+    // const [nameVnutri, nameBesit, imgVnutri, imgBesit] = dataPodcast;
+
+    const [besit, vnutri] = dataPodcast;
+    const {name: nameVnutri, imgUrl: imgVnutri } = vnutri;
+    const {name: nameBesit, imgUrl: imgBesit } = besit;
 
     return (
         <div className="collections">
