@@ -36,9 +36,10 @@ const AdminCRUD = () => {
 
     return (
         <div className="podcastCrud">
-            <h1> CRUD podcast </h1>
+            <h3> CRUD podcast </h3>
             <PodcastItem name={podcastName} />
             <CRUDpodcast podcastImg={podcastImg} />
+            <hr/>
         </div>
         
     )

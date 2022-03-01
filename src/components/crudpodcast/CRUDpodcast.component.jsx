@@ -125,8 +125,8 @@ class CRUDpodcast extends React.Component {
             required
           />
           <div className='crud-buttons'>
-          <Button type='submit'> Сохранить </Button>
-            <Button type='submit'> Отмена </Button>
+            <Button bottonStyle="button-crud" type='submit'> Сохранить </Button>
+            <Button bottonStyle="button-crud" type='submit'> Отмена </Button>
  
           </div>
         </form>

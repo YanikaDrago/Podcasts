@@ -68,7 +68,7 @@ class AdminLogin extends React.Component {
             />
 
           <div className='buttons'>
-            <Button type='submit'> Sign in </Button>
+            <Button type='submit' bottonStyle="button-option"> Sign in </Button>
             {
              this.state.auth ? <Navigate to="podcast"  /> : null
             }

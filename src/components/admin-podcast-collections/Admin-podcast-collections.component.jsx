@@ -19,14 +19,14 @@ const AdminPodcastCollections = () => {
             <div className="collectionItem">
                 <PodcastItem name={nameVnutri} src={imgVnutri} />
                     <Link to="/admin/podcast/vnutri-menya">
-                        <Button> редактировать </Button>
+                        <Button bottonStyle="button-option"> редактировать </Button>
                     </Link>
                 
             </div>
             <div className="collectionItem">
                 <PodcastItem name={nameBesit} src={imgBesit} />
                     <Link to="/admin/podcast/menya-vse-besit">
-                        <Button> редактировать </Button>
+                        <Button bottonStyle="button-option"> редактировать </Button>
                     </Link>
             </div>        
         </div>

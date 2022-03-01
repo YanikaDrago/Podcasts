@@ -3,14 +3,14 @@
 .container {
     border-radius: 5px;
     background-color: #B4CFB0;
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
 
     width: 45%;
 
     text-align: center;
-    margin: 25px auto;
+    margin: 0 auto;
 }
 
 .crud-buttons {
