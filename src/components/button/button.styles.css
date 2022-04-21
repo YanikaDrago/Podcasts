@@ -21,6 +21,7 @@
     background-color: black;
     color: white;
     border-radius: 0;
+    cursor: pointer;
 }
 
 .button-crud {
@@ -29,8 +30,8 @@
     border-radius: 30px;
 }
   
-/* button :hover {
+.button-option:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
-} */
+}

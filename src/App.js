@@ -8,8 +8,9 @@ import AdminPodcastCollections from "./components/admin-podcast-collections/Admi
 import AdminCRUD from "./pages/admin-crud/AdminCRUD.component";
 
 import "./global.style.css"
-
 import dataPodcast from "./assets/data";
+
+// import {auth} from "./firebase/firebase.utils";
 
 
 function App() {
